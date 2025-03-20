@@ -65,6 +65,7 @@ const HeroContent = () => {
                     }}
                     className='w-full h-full flex justify-center items-center'
                 >
+                {/* <Image src="/self.jpeg" alt="work icon" height={300} width={300}/> */}
                 <Image src="/mainIconsdark.svg" alt="work icon" height={800} width={800}/>
             </motion.div>
 

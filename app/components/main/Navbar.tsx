@@ -11,7 +11,7 @@ const Navbar = () => {
                     <span>Xiaobao Xue</span>
                 </a>
 
-                <div className='flex items-center justify-between gap-6 border border-b-blue-50 rounded-2xl px-4'>
+                <div className='flex items-center justify-between gap-6 border border-b-blue-50 rounded-2xl px-4 mr-16'>
                     <a href='#about-me' className='cursor-pointer'>About me</a>
                     <a href='#skills' className='cursor-pointer'>Skills</a>
                     <a href='#projects' className='cursor-pointer'>Projects</a>

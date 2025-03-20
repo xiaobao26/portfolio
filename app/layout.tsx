@@ -26,10 +26,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-[#030014] overflow-y-scroll overflow-x-hidden w-screen h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-[#030014] overflow-y-scroll overflow-x-hidden w-full h-full`}
       >
         <Navbar />
-        {children}
+
+        <video autoPlay muted loop className='absolute z-[100] w-full h-[200vh] object-cover'>
+            <source src='/blackhole.mp4' type='video/mp4'/>
+        </video>
+        <main className="w-full h-full relative z-[200]">
+          {children}
+        </main>
+        
       </body>
     </html>
   );

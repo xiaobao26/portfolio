@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
+import { easeInOut, motion } from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/16/solid'
 
@@ -10,7 +10,7 @@ const HeroContent = () => {
         <motion.div
             initial="hidden"
             animate="visible"
-            className="w-full h-full flex justify-center items-center pl-20 mt-10 z-[101] text-white"
+            className="w-full h-full flex justify-center items-center pl-20 mt-10 z-[200] text-white"
         >
             <div className="flex flex-col w-full h-full gap-5 justify-center m-auto text-start">
                 <motion.div
@@ -53,9 +53,19 @@ const HeroContent = () => {
 
             <motion.div
                     variants={slideInFromRight(0.8)}
+                    animate={{
+                        opacity: 0.8,
+                        y: [0, -10, 0]
+                    }}
+                    transition={{
+                        duration: 2,
+                        repeat: Infinity,
+                        repeatType: "reverse",
+                        ease: easeInOut
+                    }}
                     className='w-full h-full flex justify-center items-center'
                 >
-                <Image src="/mainIconsdark.svg" alt="work icon" height={850} width={850}/>
+                <Image src="/mainIconsdark.svg" alt="work icon" height={800} width={800}/>
             </motion.div>
 
         </motion.div>

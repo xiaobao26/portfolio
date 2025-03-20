@@ -7,10 +7,9 @@ interface Props {
     width: number;
     height: number;
     index: number;
-    name: string;
 }
 
-const SkillDataProvider = ({ src, width, height, index, name} : Props ) => {
+const SkillDataProvider = ({ src, width, height, index} : Props ) => {
     const ref = useRef(null)
 
     const isInView = useInView(ref, { once: true })
@@ -24,14 +23,13 @@ const SkillDataProvider = ({ src, width, height, index, name} : Props ) => {
             animate={isInView ? { opacity: 1, y:0 } : {}}
             custom={index}
             transition={{delay: index * animationDelay}}
-            className='flex flex-col justify-center items-center gap-2'
+            className='flex flex-col justify-center items-center '
         >
             <motion.div
                 animate={{opacity: 1, y:[0, -10, 0]}}
                 transition={{delay: index * animationDelay, duration:3, repeat:Infinity, ease: easeInOut, repeatType:"reverse"}}
                 >
                 <Image src={src} alt="skill tool image" width={width} height={height}/>
-                <span className='text-white text-sm'>{name}</span>
             </motion.div>
             
         </motion.div>

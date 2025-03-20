@@ -15,6 +15,7 @@ const Skills = () => {
             <motion.div 
                 animate={{ opacity: 1, y: [0, 10, 0]}}
                 transition={{repeat:Infinity, duration: 3, ease: easeInOut, repeatType:"reverse"}}
+                className='ml-7'
                 >
                 <Image className='rounded-full' src="/self.jpeg" alt="linkedin logo" width={100} height={30}/>
             </motion.div>
@@ -26,7 +27,6 @@ const Skills = () => {
                     width={skill.width}
                     height={skill.height}
                     index={index}
-                    name={skill.skill_name}
                 />
             ))}
             </div>
@@ -39,7 +39,6 @@ const Skills = () => {
                     width={skill.width}
                     height={skill.height}
                     index={index}
-                    name={skill.skill_name}
                 />
             ))}
             </div>
@@ -52,7 +51,6 @@ const Skills = () => {
                         width={skill.width}
                         height={skill.height}
                         index={index}
-                        name={skill.skill_name}
                     />
                 ))}
             </div>

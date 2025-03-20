@@ -82,42 +82,30 @@ export const Deployment = [
     }
 ];
 
-
-
-// export const Frontend_skill = [
-//     {
-//         skill_name: "Tailwind Css",
-//         Image: "/tailwind.png",
-//         width: 60,
-//         height: 60,
-//     },
-
-//     {
-//         skill_name: "React",
-//         Image: "/react.png",
-//         width: 60,
-//         height: 60,
-//     },
-//     {
-//         skill_name: "Redux",
-//         Image: "/redux.png",
-//         width: 60,
-//         height: 60,
-//     },
-//     {
-//         skill_name: "Next js 15",
-//         Image: "/next.png",
-//         width: 60,
-//         height: 60,
-//     },
-// ];
-
 export const Backend_skill = [
     {
         skill_name: "C Sharp",
         Image: "/Csharp.svg",
         width: 60,
         height: 60,
+    },
+    {
+        skill_name: "Dotnet",
+        Image: "/DotnetCore.png",
+        width: 65,
+        height: 65,
+    },
+    {
+        skill_name: "SignalR",
+        Image: "/SignalR.png",
+        width: 70,
+        height: 70,
+    },
+    {
+        skill_name: "RabbitMQ",
+        Image: "/RabbitMQ.jpg",
+        width: 55,
+        height: 55,
     },
     {
         skill_name: "Node js",
@@ -149,6 +137,7 @@ export const Backend_skill = [
         width: 70,
         height: 70,
     },
+
 ];
 
 export const Full_stack = [

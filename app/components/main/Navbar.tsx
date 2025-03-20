@@ -8,12 +8,12 @@ const Navbar = () => {
             <div className='w-full h-full flex justify-between items-center'>
                 <a href="#about-me" className='flex gap-2 items-center'>
                     <Image src="/logo.png" alt="website logo" width={30} height={30}/>
-                    <span>WebChain Dev</span>
+                    <span>Xiaobao Xue</span>
                 </a>
 
                 <div className='flex items-center justify-between gap-6 border border-b-blue-50 rounded-2xl px-4'>
                     <a href='#about-me' className='cursor-pointer'>About me</a>
-                    <a href='#skills ' className='cursor-pointer'>Skills</a>
+                    <a href='#skills' className='cursor-pointer'>Skills</a>
                     <a href='#projects' className='cursor-pointer'>Projects</a>
                 </div>
 

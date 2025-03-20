@@ -19,7 +19,7 @@ const ProjectCard = ({ src, description, title, webUrl }: Props ) => {
                 <Image 
                     src={src}
                     alt={title}
-                    width={1000}
+                    width={900}
                     height={1000}
                     className='w-full rounded-xl'
                 />

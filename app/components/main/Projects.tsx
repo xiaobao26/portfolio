@@ -7,7 +7,7 @@ import { SparklesIcon } from '@heroicons/react/16/solid'
 const Projects = () => {
     return (
         <div id="projects"
-            className='flex flex-col items-center w-full h-full mb-20 relative'>
+            className='flex flex-col items-center w-full h-min-h-screen mb-20 relative'>
             <motion.div 
                 animate={{ opacity:1, y:[0, -20, 0]}}
                 transition={{delay: 0.3, duration: 2, repeat: Infinity, ease: easeInOut, repeatType:"reverse"}}

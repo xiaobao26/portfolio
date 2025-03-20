@@ -30,13 +30,13 @@ export default function RootLayout({
       >
         <Navbar />
 
-        <video autoPlay muted loop className='absolute z-[100] w-full h-[200vh] object-cover'>
+        <video autoPlay muted loop className='absolute z-[100] w-full h-[300vh] object-cover'>
             <source src='/blackhole.mp4' type='video/mp4'/>
         </video>
         <main className="w-full h-full relative z-[200]">
           {children}
         </main>
-        
+
       </body>
     </html>
   );

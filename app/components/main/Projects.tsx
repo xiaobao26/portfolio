@@ -24,21 +24,21 @@ const Projects = () => {
             <div className='w-full h-full flex gap-2'>
                 <ProjectCard 
                     src='/innovatefuture.png'
-                    title='React + Net8 + RabbitMQ + JWT'
-                    description='React + Net8 + RabbitMQ + JWT React + Net8 + RabbitMQ + JWT React + Net8 + RabbitMQ + JWT React + Net8 + RabbitMQ + JWT React + Net8 + RabbitMQ + JWT React + Net8 + RabbitMQ + JWT'
+                    title='Saas Platform'
+                    description='React + .Net8 + RabbitMQ + JWT'
                     webUrl="https://dev.innovatefuture.foundation/"
                 />
                 <ProjectCard 
                     src='/portfolio.png'
                     title='Modern Next.js Protfolio'
-                    description='Next.js 15 + animation Next.js 15 + animation Next.js 15 + animation Next.js 15 + animation Next.js 15 + animation Next.js 15 + animation Next.js 15 + animation Next.js 15 + animation Next.js 15 + animation'
+                    description='Next.js 15 + animation'
                     webUrl="https://icy-forest-058908500.6.azurestaticapps.net"
 
                 />
                 <ProjectCard 
                     src='/AI-chatRoom.png'
                     title='Azure AI Translator + SignalR'
-                    description='React + Net8 + Azure AI Translator + SignalR(Website socket) React + Net8 + Azure AI Translator + SignalR(Website socket) React + Net8 + Azure AI Translator + SignalR(Website socket) React + Net8 + Azure AI Translator + SignalR(Website socket)'
+                    description='Azure AI Translator + SignalR(Website socket) + Shadcn UI Framework'
                     webUrl="https://brave-rock-070c6bd00.6.azurestaticapps.net"
                 />
             </div>

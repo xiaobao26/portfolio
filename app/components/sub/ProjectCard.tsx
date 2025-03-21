@@ -24,7 +24,7 @@ const ProjectCard = ({ src, description, title, webUrl }: Props ) => {
                     className='w-full rounded-xl'
                 />
             </a>
-            <div className=' overflow-y-scroll flex flex-col gap-2'>
+            <div className=' overflow-y-scroll flex flex-col gap-2 px-2'>
                 <h1 className='font-bold text-white'>{title}</h1>
                 <p className='text-xs text-gray-300'>{description}</p>
             </div>
